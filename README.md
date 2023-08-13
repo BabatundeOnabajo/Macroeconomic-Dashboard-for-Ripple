@@ -5,6 +5,8 @@ This is an Android Wear app that enables users to access their Ripple (XRP) acco
 
 # Requirements
 
+# Features
+
 # Instructions
 
 # Credits
