@@ -4,6 +4,8 @@ This is an Android Wear app that enables users to access their Ripple (XRP) acco
 # Background
 
 # Requirements
+* Wear OS must have an API level 30 (R).
+* 
 
 # Features
 _Ripple On Your Wrist_ has the following features:
