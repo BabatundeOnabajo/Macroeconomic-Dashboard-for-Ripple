@@ -19,7 +19,7 @@ _Ripple On Your Wrist_ has the following features:
 There are two main ways in which you can test or run this code yourself.
 
 1. Download Application Package Kit (APK) file.
-The .apk file here is called **ripple-on-your-wrist.apk**.
+The .apk file here is called **ripple-on-your-wrist.apk**. You can download this and then either migrate it to your Wear OS device if you have one, or alternatively, to migrate it to Android Studio and run it on your computer. 
 2. Download all the files in this repository onto your own system (note that local.properties has been specifically omitted from this repository).
 
 # Credits
