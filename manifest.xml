@@ -1,16 +1,26 @@
 <?xml version="1.0" encoding="utf-8"?>
 <manifest xmlns:android="http://schemas.android.com/apk/res/android">
-<!-- This informs the Android system that we are developing for a smartwatch. -->
-    <uses-feature android:name="android.hardware.type.watch" />
+    <!-- This informs the Android system that we are developing for a smartwatch. -->
+    <uses-feature android:name="android.hardware.type.watch" /> <!-- This informs the Android system that we are using Near Field Communication (NFC), which we will use in this app for enabling users to transfer XRP by placing two smartwatches near each other. We set it to false as it is not completely essential, but is nevertheless useful to have. Another advantage of declaring this in AndroidManifest.xml is that it informs Google Play who can then inform end users that this is an NFC device. We set the permission to it being non-compulsory through the android:required tag being set to false. -->
+    <uses-feature
+        android:name="android.hardware.nfc"
+        android:required="false" />
 
-    <!-- This informs the Android system that we are using Near Field Communication (NFC), which we will use in this app for enabling users to transfer XRP by placing two smartwatches near each other. We set it to false as it is not completely essential, but is nevertheless useful to have. Another advantage of declaring this in AndroidManifest.xml is that it informs Google Play who can then inform end users that this is an NFC device. -->
-    <uses-feature android:name="android.hardware.nfc" android:required="false" />
+    <!-- This segment relates to the various permissions needed for our smartwatch app -->
+    <uses-permission android:name="android.permission.INTERNET" /> <!-- This informs the user that we will be using the internet in our app -->
+    <uses-permission android:name="android.permission.ACCESS_COARSE_LOCATION" /> <!-- This requests permission to obtain the location for the user. We use "Coarse Location" as opposed to "Fine Location" because it is not necessary in the present case to have a very detailed or precise information about the user's location. -->
+
 
     <application
         android:allowBackup="true"
         android:icon="@mipmap/ic_launcher"
         android:label="@string/app_name"
         android:supportsRtl="true"
-        android:theme="@android:style/Theme.DeviceDefault" />
+        android:theme="@android:style/Theme.DeviceDefault">
+        <activity
+            android:name=".MainActivity"
+            android:exported="false"
+            android:theme="@android:style/Theme.DeviceDefault.NoActionBar" />
+    </application>
 
 </manifest>
