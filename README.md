@@ -14,6 +14,10 @@ _Ripple On Your Wrist_ has the following features:
 * Emphasis on accessibility for those with impairments
 
 # Instructions
+There are two main ways in which you can test or run this code yourself.
+
+1. Download Application Package Kit (APK) file.
+2. 
 
 # Credits
 Babatunde Onabajo (ChurchMapped Limited)
