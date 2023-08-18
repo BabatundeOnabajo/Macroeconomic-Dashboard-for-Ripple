@@ -11,7 +11,9 @@ This is an Android Wear app that enables users to access their Ripple (XRP) acco
 # Features
 _Ripple On Your Wrist_ has the following features:
 * 
-* Emphasis on accessibility for those with impairments
+* Emphasis on accessibility for those with impairments.
+* Suitable for both square-shaped and rounded smartwatches.
+* 
 
 # Instructions
 There are two main ways in which you can test or run this code yourself.
