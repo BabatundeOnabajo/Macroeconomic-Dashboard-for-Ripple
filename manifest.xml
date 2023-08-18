@@ -1,7 +1,10 @@
 <?xml version="1.0" encoding="utf-8"?>
 <manifest xmlns:android="http://schemas.android.com/apk/res/android">
-
+<!-- This informs the Android system that we are developing for a smartwatch. -->
     <uses-feature android:name="android.hardware.type.watch" />
+
+    <!-- This informs the Android system that we are using Near Field Communication (NFC), which we will use in this app for enabling users to transfer XRP by placing two smartwatches near each other. We set it to false as it is not completely essential, but is nevertheless useful to have. Another advantage of declaring this in AndroidManifest.xml is that it informs Google Play who can then inform end users that this is an NFC device. -->
+    <uses-feature android:name="android.hardware.nfc" android:required="false" />
 
     <application
         android:allowBackup="true"
