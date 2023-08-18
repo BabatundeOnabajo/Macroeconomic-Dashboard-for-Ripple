@@ -17,6 +17,7 @@ _Ripple On Your Wrist_ has the following features:
 There are two main ways in which you can test or run this code yourself.
 
 1. Download Application Package Kit (APK) file.
+The .apk file here is called **ripple-on-your-wrist.apk**.
 2. 
 
 # Credits
